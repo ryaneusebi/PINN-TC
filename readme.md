@@ -1,7 +1,14 @@
 Author: Ryan Eusebi
+
 Contact email: reusebi@caltech.edu
+
 Date: 11/20/2023
+
 Please contact me if you are using this code and have any questions!
+
+This code was used in Eusebi et al. (2023) for reconstructing
+3D hurricane velocity and pressure fields with a physics-informed
+neural network using sparse observations.
 
 Note that this code has been adapted from Raissi et al. (2019), so
 one can also refer to their code linked at:
