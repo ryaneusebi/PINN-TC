@@ -3,9 +3,7 @@ Contact email: reusebi@caltech.edu
 Date: 11/20/2023
 Please contact me if you are using this code and have any questions!
 
-Note that this code has been adapted from Raissi et al. (2019), so
-one can also refer to their code linked at:
- https://github.com/maziarraissi/PINNs
+This code was written based on a tensorflow 2 version of the PINN code developed by Ching-Yao Lai and Yongji Wang. Note that the original PINN code from Raissi et al. (2019) was written in tensorflow 1 and available at: https://github.com/maziarraissi/PINNs
 
 Information for running the PINN code in this repo:
 
@@ -31,16 +29,11 @@ handles calculating the errors in the PINN output at the data points
 compared to the ground truth observations provided to the function. 
 The Inverse_1stOrder_Equations() function calculates all the relevant
 derivative terms needed for your chosen PDEs and calculates the equation
-residuals at your collocation points. The physical equations in this section
-can be modified to suit your needs.
+residuals at your collocation points. The physical equations in this section can be modified to suit your needs.
 
 The "train_pinn.py" provides a nearly complete file for training your own
 PINN given the provided equations in equations.py (which can be modified). 
-The file requires the user to add code to get their own collocation and data
-points, and the weights for the data points. The user should also adjust
-all of the parameters to best suit their problem domain, such as all of
-the scaling parameters. The user can also adjust the trianing iterations
-and the neural network structure.
+The file requires the user to add code to get their own collocation and data points, and the weights for the data points. The user should also adjust all of the parameters to best suit their problem domain, such as all of the scaling parameters. The user can also adjust the training iterations and the neural network structure.
 
 
 

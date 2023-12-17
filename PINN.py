@@ -1,7 +1,9 @@
 """
-Code Adapted from Raissi et al. (2019)
-Adapted by Ryan Eusebi for Eusebi et al. (2023)
 Code for Physics-Informed Network
+This code was written based on a tensorflow 2 version
+of the PINN code developed by Ching-Yao Lai and Yongji Wang,
+adapted from Raissi et al. (2019).
+Adapted by Ryan Eusebi for Eusebi et al. (2023)
 """
 
 from abc import ABC, abstractmethod
@@ -38,7 +40,6 @@ def create_mlp(layers: List[int], lyscl: List[int], dtype=tf.float64, input_size
     """Multilayer perceptron for PINN problem"""
 
     inputs = Input(shape=(input_size,), dtype=dtype)
-#     shifted = ShiftLayer()(inputs)
     dense = Dense(
         layers[0], activation="tanh", dtype=dtype,
         kernel_initializer=TunalbeXavierNormal(lyscl[0]))(inputs)
