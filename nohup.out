@@ -1,0 +1,110 @@
+2023-11-20 20:13:19.546005: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:562: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imin = index.get_loc(minval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:563: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imax = index.get_loc(maxval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:562: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imin = index.get_loc(minval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:563: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imax = index.get_loc(maxval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/indexes.py:234: FutureWarning: Passing method to Int64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  indexer = self.index.get_loc(
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/indexes.py:234: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  indexer = self.index.get_loc(
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:562: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imin = index.get_loc(minval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:563: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imax = index.get_loc(maxval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:562: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imin = index.get_loc(minval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:563: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imax = index.get_loc(maxval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:562: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imin = index.get_loc(minval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:563: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imax = index.get_loc(maxval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:562: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imin = index.get_loc(minval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:563: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imax = index.get_loc(maxval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:562: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imin = index.get_loc(minval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:563: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imax = index.get_loc(maxval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:562: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imin = index.get_loc(minval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:563: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imax = index.get_loc(maxval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:562: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imin = index.get_loc(minval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:563: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imax = index.get_loc(maxval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:562: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imin = index.get_loc(minval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:563: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imax = index.get_loc(maxval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:562: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imin = index.get_loc(minval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:563: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imax = index.get_loc(maxval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:562: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imin = index.get_loc(minval, method="nearest")
+/home/reusebi/.conda/envs/tf24/lib/python3.8/site-packages/xarray/core/missing.py:563: FutureWarning: Passing method to Float64Index.get_loc is deprecated and will raise in a future version. Use index.get_indexer([item], method=...) instead.
+  imax = index.get_loc(maxval, method="nearest")
+<xarray.DataArray 'h' (x: 251, y: 251, p: 72)>
+array([[[-3.12391908e-01,  1.27818015e+00,  2.81733700e+00, ...,
+         -9.59342428e+00, -9.42659355e+00, -9.39040226e+00],
+        [ 4.83258104e-02,  1.29209533e+00,  2.97039521e+00, ...,
+         -9.12129404e+00, -9.02329131e+00, -9.03859904e+00],
+        [ 2.76358423e-02,  1.54065517e+00,  2.91287361e+00, ...,
+         -8.73753530e+00, -8.65224384e+00, -8.69150364e+00],
+        ...,
+        [-5.76056330e+01, -5.63345251e+01, -5.54081696e+01, ...,
+         -8.82855812e+01, -8.75744725e+01, -8.79059135e+01],
+        [-4.53152867e+01, -4.39957959e+01, -4.31269873e+01, ...,
+         -7.62126105e+01, -7.56750782e+01, -7.60589235e+01],
+        [-3.47597940e+01, -3.33839014e+01, -3.25856497e+01, ...,
+         -6.57106848e+01, -6.53421713e+01, -6.57794778e+01]],
+
+       [[-3.97910350e-01,  1.47641849e+00,  2.71383258e+00, ...,
+         -9.33742329e+00, -9.22734892e+00, -9.37838410e+00],
+        [-2.95120403e-01,  1.59809012e+00,  2.74417635e+00, ...,
+         -9.04852090e+00, -8.93768778e+00, -9.04964778e+00],
+        [ 6.49534272e-02,  1.47892994e+00,  2.87473572e+00, ...,
+         -8.78104357e+00, -8.66507511e+00, -8.73279668e+00],
+...
+        [-2.27771977e+01, -2.11369141e+01, -2.00658953e+01, ...,
+         -1.04079953e+02, -1.05915968e+02, -1.07578452e+02],
+        [-2.13947670e+01, -1.99717837e+01, -1.89390714e+01, ...,
+         -1.03438012e+02, -1.05339736e+02, -1.07055152e+02],
+        [-2.03067170e+01, -1.85162280e+01, -1.77335917e+01, ...,
+         -1.02859887e+02, -1.04769630e+02, -1.06503100e+02]],
+
+       [[ 2.79725973e+01,  2.92522964e+01,  3.03616700e+01, ...,
+          7.98890785e+00,  5.34397172e+00,  2.65317188e+00],
+        [ 2.70624989e+01,  2.84368843e+01,  2.96606812e+01, ...,
+          8.00960879e+00,  5.40013077e+00,  2.90555215e+00],
+        [ 2.50539398e+01,  2.62233979e+01,  2.72338023e+01, ...,
+          6.47537617e+00,  3.94711386e+00,  1.74927235e+00],
+        ...,
+        [-2.27782923e+01, -2.12390659e+01, -2.03107010e+01, ...,
+         -1.04774476e+02, -1.06608246e+02, -1.08264175e+02],
+        [-1.77100285e+01, -1.63162847e+01, -1.53084211e+01, ...,
+         -1.00272052e+02, -1.02187046e+02, -1.03864419e+02],
+        [-1.42886102e+01, -1.23804001e+01, -1.14974645e+01, ...,
+         -9.71948235e+01, -9.91265928e+01, -1.00796651e+02]]])
+Coordinates:
+    time     float64 0.0
+  * y        (y) float64 -400.0 -396.8 -393.6 -390.4 ... 390.4 393.6 396.8 400.0
+  * x        (x) float64 -400.0 -396.8 -393.6 -390.4 ... 390.4 393.6 396.8 400.0
+    pfull    (p) float64 880.0 870.0 860.0 850.0 ... 200.0 190.0 180.0 170.0
+  * p        (p) float64 880.0 870.0 860.0 850.0 ... 200.0 190.0 180.0 170.0
+shield h 412.6524164676666
+pinn wind 863.367429971695
+pinn u 1310.5920066833496
+pinn v 1741.8090908527374
+pinn h 2189.439463376999
+shield wind 2659.630555152893
+shield u 3160.9320895671844
+shield v 3703.3550848960876

@@ -1,9 +1,22 @@
 Author: Ryan Eusebi
+
 Contact email: reusebi@caltech.edu
+
 Date: 11/20/2023
+
 Please contact me if you are using this code and have any questions!
 
+<<<<<<< HEAD
 This code was written based on a tensorflow 2 version of the PINN code developed by Ching-Yao Lai and Yongji Wang. Note that the original PINN code from Raissi et al. (2019) was written in tensorflow 1 and available at: https://github.com/maziarraissi/PINNs
+=======
+This code was used in Eusebi et al. (2023) for reconstructing
+3D hurricane velocity and pressure fields with a physics-informed
+neural network using sparse observations.
+
+Note that this code has been adapted from Raissi et al. (2019), so
+one can also refer to their code linked at:
+ https://github.com/maziarraissi/PINNs
+>>>>>>> d9df507390849bdc7fcf8ccf324939b60d2bcbec
 
 Information for running the PINN code in this repo:
 
