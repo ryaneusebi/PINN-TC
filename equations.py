@@ -51,19 +51,19 @@ def Inverse_1stOrder_Equations_terms():
       
       cor = f + beta*y*x_0
       # Momentum balance governing equations in horizontal direction
-      ns_x = x_0/u_0/t_0*u_t + u*u_x + v*u_y + x_0/p_0*w*u_p - x_0/u_0*cor*v + (h_0/u_0**2)*h_x
-      ns_y = x_0/u_0/t_0*v_t + u*v_x + v*v_y + x_0/p_0*w*v_p + x_0/u_0*cor*u + (h_0/u_0**2)*h_y
+      ns_x = x_0/u_0/t_0*u_t + u*u_x + v*u_y + x_0/u_0/t_0*w*u_p - x_0/u_0*cor*v + (h_0/u_0**2)*h_x
+      ns_y = x_0/u_0/t_0*v_t + u*v_x + v*v_y + x_0/u_0/t_0*w*v_p + x_0/u_0*cor*u + (h_0/u_0**2)*h_y
 
       nsx_terms = {
          'dt': x_0/u_0/t_0*u_t, 
-         'advec': u*u_x + v*u_y + x_0/p_0*w*u_p, 
+         'advec': u*u_x + v*u_y + x_0/u_0/t_0*w*u_p, 
          'cor': -x_0/u_0*cor*v,
          'pres': (h_0/u_0**2)*h_x
       }
 
       nsy_terms = {
          'dt': x_0/u_0/t_0*v_t, 
-         'advec': u*v_x + v*v_y + x_0/p_0*w*v_p, 
+         'advec': u*v_x + v*v_y + x_0/u_0/t_0*w*v_p, 
          'cor': x_0/u_0*cor*u,
          'pres': (h_0/u_0**2)*h_y
       }
@@ -71,19 +71,19 @@ def Inverse_1stOrder_Equations_terms():
       nsx_terms_advec = {
          'xadvec': u*u_x,
          'yadvec': v*u_y,
-         'padvec': x_0/p_0*w*u_p
+         'padvec': x_0/u_0/t_0*w*u_p
       }
 
       nsy_terms_advec = {
          'xadvec': u*v_x,
          'yadvec': v*v_y,
-         'padvec': x_0/p_0*w*v_p
+         'padvec': x_0/u_0/t_0*w*v_p
       }
 
       cont_terms = {
          'dudx': u_x,
          'dvdy': v_y,
-         'dwdp': x_0/p_0*w_p
+         'dwdp': x_0/u_0/t_0*w_p
       }
 
 
@@ -132,14 +132,14 @@ def Inverse_1stOrder_Equations():
       
       cor = f + beta*y*x_0
       # Momentum balance governing equations in horizontal direction
-      ns_x = x_0/u_0/t_0*u_t + u*u_x + v*u_y + x_0/p_0*w*u_p - x_0/u_0*cor*v + (h_0/u_0**2)*h_x
-      ns_y = x_0/u_0/t_0*v_t + u*v_x + v*v_y + x_0/p_0*w*v_p + x_0/u_0*cor*u + (h_0/u_0**2)*h_y
+      ns_x = x_0/u_0/t_0*u_t + u*u_x + v*u_y + x_0/u_0/t_0*w*u_p - x_0/u_0*cor*v + (h_0/u_0**2)*h_x
+      ns_y = x_0/u_0/t_0*v_t + u*v_x + v*v_y + x_0/u_0/t_0*w*v_p + x_0/u_0*cor*u + (h_0/u_0**2)*h_y
 
       if drop_mass_balance:
          return ns_x, ns_y
       else:
          # mass balance governing equation
-         cont = u_x + v_y + x_0/p_0*w_p
+         cont = u_x + v_y + x_0/u_0/t_0*w_p
          return ns_x, ns_y, cont
 
    return inverse_1st_order
