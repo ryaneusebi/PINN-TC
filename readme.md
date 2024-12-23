@@ -38,6 +38,6 @@ The "train_pinn.py" provides a nearly complete file for training your own
 PINN given the provided equations in equations.py (which can be modified). 
 The file requires the user to add code to get their own collocation and data points, and the weights for the data points. The user should also adjust all of the parameters to best suit their problem domain, such as all of the scaling parameters. The user can also adjust the training iterations and the neural network structure.
 
-
+The file tf2_gpu_env.yml is the conda environment file that was used when running all of this code.
 
 
