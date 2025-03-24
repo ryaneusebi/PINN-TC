@@ -1,0 +1,15 @@
+name: tf2-gpu
+channels:
+  - defaults
+dependencies:
+  - imageio
+  - xarray
+  - tensorflow-probability
+  - python=3.8.10
+  - tensorflow==2.7.0[build=cuda112*]
+  - pandas
+  - matplotlib
+  - netcdf4
+  - dask
+  - bottleneck
+prefix: /home/reusebi/.conda/envs/tf2-gpu
